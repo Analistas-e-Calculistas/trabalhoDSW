@@ -1,30 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <body>
-
-        <form action="action_page.php" method="post">
-            <div class="imgcontainer">
-              <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
-          
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
-          
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          
-              <button type="submit">Login</button>
-              <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-              </label>
-            </div>
-          
-            <div class="container" style="background-color:#f1f1f1">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-          </form>
-
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Le Bife</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+    <div class="footer">
+      <footer>
+        <nav>
+        <ul>
+        <li><a href="#">Author: Caíque Nunes, João Vitor</a></li>
+        <li><a href="mailto:caiquerantc@gmail.com">caiquerantc@gmail.com</a></li>
+        <li><a href="mailto:caiquerantc@gmail.com">jvitogs@hotmail.com</a></li>
+        <li><a href="#">Entre em contato</a></li>
+        </ul>
+        </nav>
+        </footer>
+    </div>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1><img src="imgs/img_avatar2.png"></h1> 
+          <p> 
+            <label for="nome_login">Seu CPF</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. 09888765412"/>
+          </p>
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+ 
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1><img src="imgs/img_avatar2.png"></h1> 
+           
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+          </p>
+           
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@unifacs.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Seu CPF</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 3456543423"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
