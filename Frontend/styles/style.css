@@ -265,7 +265,8 @@
 
 img.logo{
   position: absolute;
-  width: auto;
+  display: flex;
   height: max-content;
-  left: 1150px;
+  top: 50%;
+  left: 50%;
 }
