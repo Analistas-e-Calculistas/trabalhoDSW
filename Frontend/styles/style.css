@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* CSS reset */
 *, *:before, *:after { 
   margin:0;
@@ -227,7 +226,6 @@ input[type="submit"]:hover{
     transform: translateX(-20px);
   }
 }
-=======
 
 *, *:before, *:after { 
     margin:0;
@@ -504,7 +502,7 @@ img.logo{
 #cardapio{
   display: flex;
   flex-direction: row;
-  justify-content: ;
+  justify-content: flex-start;
   padding-top: 80px;
 
 
@@ -533,17 +531,81 @@ border-radius: 50px;
        }
        
 
-.itemdois button {
-background-color: #cbd518
+.item2 button {
+background-color: #cbd518;
 padding: 10px;
 border-radius: 5px;
 border: none;
-color: 
+color: #000000;
 font-size: 14px;
 font-weight: bold;
 cursor: pointer;
+}
 
+.item h1{
 
+  font: italic;
 
 }
 
+.item3 {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#4ab3c6;
+	border-radius:5px;
+	border:1px solid #4ab3c6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.item3:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.item3:active {
+	position:relative;
+	top:1px;
+}
+
+.item2 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.item2:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.item2:active {
+	position:relative;
+	top:1px;
+}
+
+.item{
+  text-align: left;
+  color: #000000;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
