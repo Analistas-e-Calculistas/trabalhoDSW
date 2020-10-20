@@ -265,8 +265,26 @@
 
 img.logo{
   position: absolute;
-  display: flex;
   height: max-content;
-  top: 50%;
-  left: 50%;
+  width: auto;
+  top: 100;
+  left: 80%;
+}
+
+#cardapio{
+
+}
+
+#cardapio img{
+padding: 5px;
+width: 400px;
+height: 300px;
+border-radius: 50px;
+}
+
+#item{
+  background: rgba(74,179,198, 0.85);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
 }
