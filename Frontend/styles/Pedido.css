@@ -1,0 +1,124 @@
+#bd {
+    font-family: 'Kurale';
+  }
+  
+  header {
+    margin-top: -20px;
+    padding: 0px 10px 10px 10px;
+    border: 0;
+    background-color: #1f1f1f;
+    color: #d3d3d3;
+  }
+  
+  .food-menu-row {
+    border: 50px;
+  }
+  
+  .food-menu-icon {
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    background-color: #2A61FF;
+    color: #fff;
+  }
+  
+  .food-menu-item {
+    padding: 15px;
+    border-style: solid;
+    border-color: #454545;
+    border-width: 0 0 0 2px;
+    border-radius: 0;
+    background-color: #EFEFEF;
+  }
+  
+  .food-menu-item-alt {
+    padding: 15px;
+    border-style: solid;
+    border-color: #454545;
+    border-width: 0 0 0 2px;
+    border-radius: 0;
+    background-color: #f2f2f2;
+  }
+  
+  #slider {
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+  }
+  
+  #food-menu-icon-protein {
+    background-color: #003cb3;
+  }
+  
+  #image-protein {
+    width: 20px;
+    height: auto;
+    margin-top: -7px;
+    margin-bottom: -5px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  #image-salad {
+    width: 27px;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: -5px;
+  }
+  
+  #image-suco {
+    width: 23px;
+    height: auto;
+    margin-top: -8px;
+    margin-right: 6px;
+    margin-bottom: -5px;
+  }
+  
+  #image-cupcake {
+    width: 23px;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: -5px;
+  }
+  
+  #food-menu-icon-salad {
+    background-color: #003399;
+  }
+  
+  #food-menu-icon-accompaniment {
+    background-color: #002b80;
+  }
+  
+  #food-menu-icon-garnish {
+    background-color: #002266;
+  }
+  
+  #food-menu-icon-juice {
+    background-color: #001a4d;
+  }
+  
+  #food-menu-icon-desert {
+    background-color: #001133;
+  }
+  
+  #btn-left,
+  #btn-right {
+    background-color: #262626;
+    color: white;
+  }
+  
+  #btn-day-night {
+    background-color: #804000;
+    color: white;
+  }
+  
+  #slider {
+    display: none;
+  }
+  
+  #meal-nav {
+    font-family: Inconsolata;
+    font-size: 20px;
+  }

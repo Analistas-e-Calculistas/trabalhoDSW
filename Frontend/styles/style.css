@@ -526,6 +526,67 @@ border-radius: 50px;
 
 
 }
+#pedido{
+  background: rgba(74,179,198, 0.85);
+  margin: 70px;
+  border-radius: 80px;
+  padding: 500px;
+
+}
+.topleft {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  font-size: 35px;
+}
+#lista {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  font-size: 20px;
+  margin: 70px;
+  border-radius: 80px;
+  padding: 100px;
+}
+#Valores {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  font-size: 20px;
+  margin: 70px;
+  border-radius: 80px;
+  padding: 100px;}
+#t01 th {
+    background-color: black;
+    color: white;
+}
+table {
+  border-collapse: separate;
+  border: 1px solid gray;
+  width: 100%;
+  float: left;
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #6666ff;
+}
+
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.prizestitle {
+  font-size: 30px;
+}
+
+.prizesinfo {
+  font-size: 25px;
+}
 
 #item p {
        font-size: 14px;
@@ -542,7 +603,30 @@ color:
 font-size: 14px;
 font-weight: bold;
 cursor: pointer;
+}
+.finalizarbutton button {
 
+  background-color: #cbd518
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: 
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+  #finalizarbutton button {
+
+    background-color: #cbd518
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: 
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 120px;
+    left: 20px;
 
 
 }
