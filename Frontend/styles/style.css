@@ -502,6 +502,11 @@ img.logo{
 }
 
 #cardapio{
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  padding-top: 80px;
+
 
 }
 
@@ -517,5 +522,28 @@ border-radius: 50px;
   margin: 10px;
   border-radius: 5px;
   padding: 20px;
+
+
+
 }
->>>>>>> main
+
+#item p {
+       font-size: 14px;
+       
+       }
+       
+
+.itemdois button {
+background-color: #cbd518
+padding: 10px;
+border-radius: 5px;
+border: none;
+color: 
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+
+
+
+}
+
