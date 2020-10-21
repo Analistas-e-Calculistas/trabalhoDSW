@@ -690,3 +690,14 @@ cursor: pointer;
  border-radius: 150px;
  padding: 100px;
 }
+#CadastramentoPAG {
+  position: absolute;
+  top: 320px;
+  left: 120px;
+  font-size: 15px;
+}
+#CataoImg {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
