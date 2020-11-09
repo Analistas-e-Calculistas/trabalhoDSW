@@ -549,6 +549,14 @@ border-radius: 50px;
   margin: 70px;
   border-radius: 80px;
   padding: 100px;}
+#PedidoAndamento1 {
+position: absolute;
+top: 120px;
+left: 20px;
+font-size: 20px;
+margin: 70px;
+border-radius: 80px;
+padding: 100px;}
 #InfoCliente {
     position: absolute;
     top: 100px;
@@ -637,6 +645,15 @@ cursor: pointer;
       border-radius: 80px;
       padding: 100px;
     }
+#CardapioCad {
+position: absolute;
+top: 100px;
+left: 380px;
+font-size: 15px;
+margin: 50px;
+border-radius: 80px;
+padding: 100px;
+}
 
 #FormasPagamento {
         position: absolute;
