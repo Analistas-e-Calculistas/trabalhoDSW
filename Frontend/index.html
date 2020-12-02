@@ -28,8 +28,10 @@
         <form method="post" action=""> 
           <h1><img src="imgs/img_avatar2.png"></h1> 
           <p> 
-            <label for="nome_login">Seu CPF</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. 09888765412"/>
+            <label for="cpf_login">Seu CPF</label>
+            <input id="cpf_login" name="cpf_login" required="required" type="text" placeholder="ex. 09888765412"/>
+            <label for="senha_login">Sua Senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="ex. 123456"/>
           </p>
           <p> 
             <input type="submit" value="Logar" /> 
@@ -44,7 +46,7 @@
  
       <!--FORMULÁRIO DE CADASTRO-->
       <div id="cadastro">
-        <form method="post" action=""> 
+        <form method="post" action="processa.php"> 
           <h1><img src="imgs/img_avatar2.png"></h1> 
            
           <p> 
@@ -58,10 +60,13 @@
           </p>
            
           <p> 
-            <label for="senha_cad">Seu CPF</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 3456543423"/>
+            <label for="CPF_cad">Seu CPF</label>
+            <input id="CPF_cad" name="CPF_cad" required="required" type="text" placeholder="ex. 3456543423"/>
           </p>
-           
+          <p> 
+            <label for="senha_cad">Sua Senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 123456"/>
+          </p>
           <p> 
             <input type="submit" value="Cadastrar"/> 
           </p>
